@@ -1,0 +1,33 @@
+1.Diffrence between let var and const variable.
+
+==> var :-
+
+	-->	before ES6 (ECMAScript) , it's use in Java Script to define any variable.
+	-->	var is many time introduce the bug in our code.
+	-->	nowadays , we can not use to much.
+	-->   	var canbe update or re-declare in anywhere and it's scope
+		
+
+
+==> const (constant) :-
+	
+	-->	constant's are those identifiers whose value cannot be cchanged throughout JavaScript program.
+
+
+==> let (BLOCK SCOPED VARIABLE) :-
+
+	-->	to declare block scoped variable.
+	-->	{
+		    //this block
+    			
+		    // var b = "this"
+		    let b = "this"
+		    console.log(b);
+		}
+
+ 		output :-
+			this
+			Kaushal
+
+	-->	we can't re-declare the let variable 
+	-->   	var canbe update but not re-declare.
