@@ -1,0 +1,23 @@
+We have 7 primitive datatypes inside JavaScript. 
+
+1. NULL
+2. NUMBER
+3. SYMBOL
+4. STRING
+5. BOOLEAN
+6. BIGINT
+7. UNDEFINED
+
+
+	-----------7 PRIMITIVE AND NON-PRIMITIVE DATATYPE (OBJECTs)-----------
+
+		const item = {
+		    "kaushal" : true,
+		    "jay": false,
+		    "vivek":35,
+		    "max":undefined
+		}
+
+		console.log(item["kaushal"]);
+
+

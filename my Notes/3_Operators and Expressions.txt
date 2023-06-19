@@ -1,0 +1,73 @@
+				-------------Operatoros-------------
+
+			-------------1. Arithmetic Operatoros-------------
+
++  ==> addition
+-  ==> subtraction	
+*  ==> multiplication
+** ==> Exponentiation 
+/  ==> Division
+%  ==> Modulus (Division Remainder)
+++ ==> Increment
+-- ==> Decrement
+
+Ex:-
+	console.log("a + b =",a+b);
+	console.log("a - b =",a-b);
+	console.log("a / b =",a/b);
+	console.log("a * b =",a*b);
+	console.log("a ** b =",a**b);
+	console.log("a % b =",a%b);
+
+==>	very important :-
+
+	console.log("++a =",++a); // it will first increment and then print     
+	console.log("a++ =",a++);   // it will print and then first increment   
+	console.log("--a =",--a); 
+	console.log("a-- =",a--); 
+	console.log("a =",a);   // after incrimental the value has plus 
+
+
+			-------------2. ASsignment Operatoros-------------
+
+	=	x = y	x = y
+	+=	x += y	x = x + y
+	-=	x -= y	x = x - y
+	*=	x *= y	x = x * y
+	/=	x /= y	x = x / y
+	%=	x %= y	x = x % y
+	**=	x **= y	x = x ** y
+
+
+			-------------3. Comparison Operators-------------
+	==	equal to
+	===	equal value and equal type
+	!=	not equal
+	!==	not equal value or not equal type
+	>	greater than
+	<	less than
+	>=	greater than or equal to
+	<=	less than or equal to
+	?	ternary operator
+
+
+			-------------4. Logical Operators-------------
+
+
+	&&	logical and
+	||	logical or
+	!	logical not
+	
+	 True True = True 
+	 True False = False 
+	 False True = False 
+	 False False = False 
+
+
+			-------------5. Comment -------------
+
+	1. Single line comment
+			// This is the sign of single line comment 
+
+	2. multiline comment 
+			/* This is the sign of multi line comment */
