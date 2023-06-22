@@ -1,0 +1,31 @@
+					---------------------For Loops--------------------- 
+
+	1. For Loops
+	2. For in Loops
+	3. For of Loops
+
+1.For Loops :- 
+	Loops are handy, if you want to run the same code over and over again, each time with a different value.
+		
+	for (Statement 1; Statement 2; Statement 3) {
+ 		 // code block to be executed
+	}
+
+	Statement 1 :- is executed one time.
+
+	Statement 2 :- defines the condition for executing the code block.
+
+	Statement 3 :- is executed every time after the loop body excuted.
+
+
+2. For in Loops :- 
+	-->	The for in loop iterates over a person object
+	-->	Each iteration returns a key (x)
+	-->	The key is used to access the value of the key
+	-->	The value of the key is person[x]
+
+
+3. For of Loops :- 
+	-->	The JavaScript for of statement loops through the values of an iterable object.
+
+	-->	It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
