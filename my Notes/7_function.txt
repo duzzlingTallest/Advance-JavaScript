@@ -12,3 +12,25 @@ E.x :-
 	function name(parameter1, parameter2, ... parameterN) {
 	 // body
 	}
+
+
+---> What is the --> Object.keys(marks).length  ???
+	
+	E.x :- 
+
+		let marks = {
+		    kaushal: 0,
+		    Jay: 100,           //  object // keys
+		    Jamiesh: 90 
+		}
+
+		console.log(marks);
+
+		for(let i =0;i<Object.keys(marks).length;i++){
+    
+		}
+
+--> " Object.keys(marks).length " it gives the length and the keys that are inside the object.
+
+--> if i printthis " Object.keys(marks) " all they keys will comes in an ARRAY (ARRAY = Collection of iteams).
+

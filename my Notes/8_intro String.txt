@@ -1,0 +1,34 @@
+					------------------------- Strings -------------------------
+
+
+		--> String is made to save or manipulate text in JavaScript
+		--> Strings can be made in two ways, 1. "Kaushal" , 2.'Kaushal'
+		--> String index start with the 0. 
+
+		Length :-
+
+			--> length represent the String length 
+
+				E.x:- 
+					let a = "Kaushal"  // create a string 
+
+					console.log(a.length);
+
+					-------------------- Template literals --------------------
+ 		   	let a1 = "nameste"
+    			let a2 = "hello"
+		    	let a3 = "hola"
+
+    			// nameste is the hind greeting and hello is the english greeting.
+
+		   	 let sentance = `${a1} and ${a2} is same`
+
+		  	  console.log(sentance);
+
+
+
+				-------------------- Escapes Sequence Character --------------------
+
+				
+				    let fruite = 'banana\'s'
+				    console.log(fruite);
