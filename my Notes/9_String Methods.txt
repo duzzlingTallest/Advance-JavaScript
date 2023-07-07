@@ -1,0 +1,111 @@
+1 --> length
+
+	let name = "Kaushal"     
+ 
+	console.log(name.length);
+	
+	Print 7
+
+2 --> toUpperCase 
+
+	console.log(name.toUpperCase());  // toUpperCase() is a function
+
+	print KAUSHAL
+
+3 --> toLowerCase
+
+	console.log(name.toLowerCase());  // toLowerCase() is a function
+	
+	print kaushal
+
+4 --> slice      Part i 
+
+	console.log(name.slice(2,4));
+
+		kaushal     // This show how string calculate
+		0123456
+
+	print us
+
+	--> start :- 	Optional.
+			Start position. Default is 0.
+			Negative numbers select from the end of the array.
+
+	--> ending :-	Optional.
+			End position. Default is last element.
+			Negative numbers select from the end of the array.
+
+5 --> slice      Part ii 
+		
+	console.log(name.slice(2));
+
+	print ushal  
+
+
+6 --> replace
+
+	let name1 = "Kaushal Bhai"
+
+	let newName = name1.replace("Bhai" ,"Damani")  // it replace the value like name and num etc...
+
+	console.log(newName);
+
+	print Kaushal Damani
+
+
+7 --> Conate
+
+	let Name = "Kaushal"
+	let Name1 = "Damanai"
+
+	let Name2 = Name.concat(" surname is ", Name1)
+
+	let Name3 = Name+=(" surname is ",Name1)
+
+	console.log(Name2);
+
+	console.log(Name3);
+
+
+	print 	Kaushal surname is Damanai
+		KaushalDamanai
+
+8 --> trim
+
+	let fd = "          jay            "
+
+	console.log(fd.trim()); 
+
+9 --> slice 
+
+		
+	let rs = "please give Rs 1000"
+	let amount = rs.slice("please give Rs".length)
+
+	console.log(amount);
+
+	slice remove the unusing part inthe string or we not needed part remove using slice
+
+
+---------------------   Quick Quiz  = Use a for loop to print a String  ---------------------
+
+	let a = "hyy i'm learning JavaScript"
+
+	for (var i = 0; i < a.length; i++) {
+   		 console.log(a.charAt(i));
+	}
+
+
+---------------------   Important methodes (includes())---------------------
+
+
+-->			The includes() method performs a case-sensitive search to determine whether one string may be found within another string, returning true or false as appropriate.
+		const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+const word = 'fox';
+
+console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+
+// Expected output: "The word "fox" is in the sentence"
+
+

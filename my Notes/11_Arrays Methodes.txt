@@ -1,0 +1,82 @@
+--------------------------- Arrays Methode's ---------------------------
+
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+1. toString()
+
+    let b = num.toString()
+
+    console.log(b);
+
+    PRINT -- 1,2,3,4,5,6,7,8,9
+
+2. join()
+
+    let c = num.join("_")
+
+    console.log(c);
+
+    PRINT -- 1_2_3_4_5_6_7_8_9
+
+3. pop()
+     -->   POP means POP OUT means removed , if i put a ball inside a box and i take it out, it will be called popping it out of the box.
+
+    num.pop()
+
+    console.log(num);
+
+    PRINT -- [
+                1, 2, 3, 4,
+                5, 6, 7, 8
+             ] 
+
+     -->   AND i also print 'r', this is returns the popped element.
+
+    let r = num.pop() //Pop returns the popped element
+
+    console.log(num, r);
+
+    PRINT -- [
+                1, 2, 3, 4,
+                5, 6, 7
+             ] 8
+
+4. push()
+
+     --> add a new element at the end of the array, modified the orignal array and return a new array length.
+    
+    let d = num.push(10)
+
+    console.log(num);
+
+    PRINT -- [
+                1, 2, 3,  4,
+                5, 6, 7, 10
+             ]
+
+5. shift()
+
+     --> remove first element and return
+
+     let e = num.shift()
+
+    console.log(e,num);
+
+    PRINT -- 1 [
+                2, 3,  4, 5,
+                 6, 7, 10
+            ]
+
+6. unShift()
+
+    --> add element to the beginning return new array length
+
+
+        let f = num.unshift(77)
+
+        console.log(f,num);
+
+        PRINT -- 8 [                  // 8 it return the length of array
+                    77, 2, 3,  4,
+                    5, 6, 7, 10
+                ]

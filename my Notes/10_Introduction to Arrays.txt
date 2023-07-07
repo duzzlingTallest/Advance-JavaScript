@@ -1,0 +1,81 @@
+--> What is Array 
+        Array are basically collection of some items, you can write many fruites names in a single array, we can put Objects, Number, Boolean.
+
+2nd defination :-->  We can store more then one value in a single name and this is our array in JS
+
+
+        you can put more than one diffrent types of values in it.
+
+
+EX :-- 
+
+                let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, null, false, "not present"]
+
+                console.log(num);
+                console.log(num[0]);
+                console.log(num[1]);
+                console.log(num[2]);
+                console.log(num[11]);
+
+
+
+// length :-
+            
+        console.log("This is length of Array",num.length);
+
+
+
+// Add The value :- 
+
+        let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, null, false, "not present"]
+
+        // add value
+
+        num[12] = 'Hello im add'
+
+        console.log(num);
+        console.log(num[0]);
+        console.log(num[1]);
+        console.log(num[2]);
+        console.log(num[11]);
+
+        // length
+        console.log("This is length of Array",num.length);
+
+
+// Changing Value :-
+
+        num[12] = "Hello I'm Change"
+
+        console.log(num);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// interview Question
+
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+delete num[0]  // after that how many length of string 
+
+console.log(num.length  );
+
+// answer is ==>  9 
+
